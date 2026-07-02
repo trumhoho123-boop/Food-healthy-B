@@ -9,19 +9,19 @@
 
 `vercel.json` already rewrites:
 
-- `/api/*` to the Express serverless function in `api/index.js`
+- `/api/*` to the Render backend at `https://food-healthy-b.onrender.com`
 - all other routes to `index.html`
 
 ## Environment variables
 
-Add these variables in Vercel Project Settings -> Environment Variables:
+Add these variables in Render for the backend service:
 
 ```env
 SUPABASE_URL=https://your-project-id.supabase.co
 SUPABASE_KEY=your-anon-key
 ```
 
-Leave `VITE_API_BASE_URL` empty when deploying frontend and API in the same Vercel project. The frontend will call `/api/...` automatically.
+Leave `VITE_API_BASE_URL` empty on Vercel. The frontend will call `/api/...`, and Vercel will forward it to Render.
 
 ## Local development
 
