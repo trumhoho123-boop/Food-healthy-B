@@ -1,0 +1,170 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Admin",
+      "lastName": "System",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "firstName": "Dung",
+      "lastName": "Le",
+      "email": "dungle@gmail.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Đu đủ",
+      "price": 13,
+      "originalPrice": 15,
+      "discount": 20,
+      "rating": 4.5,
+      "reviews": 25,
+      "images": [
+        "./assets/images/product/Papaya-first.png",
+        "./assets/images/product/Papaya-second.png"
+      ],
+      "description": "Đu đủ chín tự nhiên, ngọt thanh, giàu vitamin A và C tốt cho tiêu hóa và sức khỏe.",
+      "weight": "150 Gram",
+      "type": "Thực vật",
+      "brand": "TemplateRise",
+      "packageQuantity": 1,
+      "manufacturer": "TemplateRise",
+      "netQuantity": "340.0 Gram",
+      "dimensions": "9.6 x 7.49 x 18.49 cm"
+    },
+    {
+      "id": 2,
+      "name": "Ớt Snibs",
+      "price": 9,
+      "originalPrice": 10,
+      "discount": 10,
+      "rating": 4.5,
+      "reviews": 20,
+      "images": [
+        "./assets/images/product/Snibs-Peppers-first.png",
+        "./assets/images/product/Snibs-Peppers-second.png"
+      ],
+      "description": "Ớt Snibs cay nồng đặc trưng, vỏ bóng đẹp, thích hợp làm gia vị cho nhiều món ăn.",
+      "weight": "100 Gram",
+      "type": "Thực vật",
+      "brand": "TemplateRise",
+      "packageQuantity": 1,
+      "manufacturer": "TemplateRise",
+      "netQuantity": "200.0 Gram",
+      "dimensions": "8.0 x 6.0 x 15.0 cm"
+    },
+    {
+      "id": 3,
+      "name": "Dâu tây",
+      "price": 18,
+      "originalPrice": 19,
+      "discount": 5,
+      "rating": 4.5,
+      "reviews": 35,
+      "images": [
+        "./assets/images/product/Strawberry-first.png",
+        "./assets/images/product/Strawberry-second.png"
+      ],
+      "description": "Dâu tây Đà Lạt chín mọng, vị ngọt chua hài hòa, thích hợp làm tráng miệng hoặc sinh tố.",
+      "weight": "200 Gram",
+      "type": "Thực vật",
+      "brand": "TemplateRise",
+      "packageQuantity": 1,
+      "manufacturer": "TemplateRise",
+      "netQuantity": "400.0 Gram",
+      "dimensions": "10.0 x 8.0 x 12.0 cm"
+    },
+    {
+      "id": 4,
+      "name": "Dừa tươi",
+      "price": 13,
+      "originalPrice": 15,
+      "discount": 30,
+      "rating": 4.5,
+      "reviews": 18,
+      "images": [
+        "./assets/images/product/Tender-Coconut-first.png",
+        "./assets/images/product/Tender-Coconut-second.png"
+      ],
+      "description": "Dừa xiêm xanh Bến Tre nhiều nước ngọt mát, bổ sung năng lượng nhanh chóng.",
+      "weight": "500 Gram",
+      "type": "Thực vật",
+      "brand": "TemplateRise",
+      "packageQuantity": 1,
+      "manufacturer": "TemplateRise",
+      "netQuantity": "500.0 Gram",
+      "dimensions": "12.0 x 12.0 x 15.0 cm"
+    },
+    {
+      "id": 5,
+      "name": "Cà chua",
+      "price": 10,
+      "originalPrice": 7,
+      "discount": 30,
+      "rating": 4.5,
+      "reviews": 40,
+      "images": [
+        "./assets/images/product/Tomato-first.png",
+        "./assets/images/product/Tomato-second.png"
+      ],
+      "description": "Cà chua hữu cơ đỏ mọng, giàu lycopene, lý tưởng cho món salad và nấu nướng hàng ngày.",
+      "weight": "250 Gram",
+      "type": "Thực vật",
+      "brand": "TemplateRise",
+      "packageQuantity": 1,
+      "manufacturer": "TemplateRise",
+      "netQuantity": "500.0 Gram",
+      "dimensions": "8.0 x 8.0 x 10.0 cm"
+    },
+    {
+      "id": 6,
+      "name": "Bí ngòi vàng",
+      "price": 6,
+      "originalPrice": 9,
+      "discount": 30,
+      "rating": 4.5,
+      "reviews": 15,
+      "images": [
+        "./assets/images/product/Zucchini-Yellow-first.png",
+        "./assets/images/product/Zucchini-Yellow-second.png"
+      ],
+      "description": "Bí ngòi vàng giòn ngọt, giàu chất xơ, thích hợp chế biến xào, nấu canh hoặc nướng lò.",
+      "weight": "200 Gram",
+      "type": "Thực vật",
+      "brand": "TemplateRise",
+      "packageQuantity": 1,
+      "manufacturer": "TemplateRise",
+      "netQuantity": "400.0 Gram",
+      "dimensions": "15.0 x 5.0 x 5.0 cm"
+    },
+    {
+      "id": 7,
+      "name": "Táo mèo",
+      "price": 13,
+      "originalPrice": 15,
+      "discount": 10,
+      "rating": 5,
+      "reviews": 0,
+      "images": [
+        "https://th.bing.com/th/id/OIP.eN3MY5sOfcf-Txa0GqXoHAHaHa?w=193&h=193&c=7&r=0&o=7&pid=1.7&rm=3",
+        "https://th.bing.com/th/id/OIP.5daIQd0v-Rty0Gtmtzf9awHaFl?w=257&h=195&c=7&r=0&o=7&pid=1.7&rm=3"
+      ],
+      "description": "",
+      "weight": "1kg",
+      "type": "Thực vật",
+      "brand": "Healthy Food",
+      "packageQuantity": 1,
+      "manufacturer": "Healthy Food",
+      "netQuantity": "1kg",
+      "dimensions": "10x10 cm"
+    }
+  ],
+  "contacts": []
+}

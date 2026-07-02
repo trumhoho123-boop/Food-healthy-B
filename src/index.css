@@ -1,0 +1,113 @@
+/* Custom Toast Notifications */
+.toast-container-custom {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 380px;
+  width: 90%;
+  pointer-events: none;
+}
+
+.toast-item-custom {
+  pointer-events: auto;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.02);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  animation: slideInCustom 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, fadeOutCustom 0.5s ease-out 2.5s forwards;
+  transition: all 0.3s ease;
+}
+
+.toast-item-custom.toast-success {
+  border-left: 5px solid #10b981;
+}
+
+.toast-item-custom.toast-danger {
+  border-left: 5px solid #ef4444;
+}
+
+.toast-item-custom.toast-warning {
+  border-left: 5px solid #f59e0b;
+}
+
+.toast-item-custom.toast-info {
+  border-left: 5px solid #3b82f6;
+}
+
+.toast-icon-custom {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toast-success .toast-icon-custom {
+  color: #10b981;
+}
+
+.toast-danger .toast-icon-custom {
+  color: #ef4444;
+}
+
+.toast-warning .toast-icon-custom {
+  color: #f59e0b;
+}
+
+.toast-info .toast-icon-custom {
+  color: #3b82f6;
+}
+
+.toast-message-custom {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1f2937;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.toast-close-custom {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.toast-close-custom:hover {
+  color: #4b5563;
+}
+
+@keyframes slideInCustom {
+  from {
+    transform: translateX(120%) scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutCustom {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+}
